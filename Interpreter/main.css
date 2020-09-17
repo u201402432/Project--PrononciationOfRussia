@@ -1,0 +1,138 @@
+
+#main_title {
+	position: relative ;
+	text-align: center ;
+	
+}
+
+#korea_img{
+	position:fixed ;
+	margin-top:2px;
+	left: 0 ;
+	top:0px;
+	width: 298px;
+	height: 83px;
+}
+
+#korean_text{
+	
+	position: relative ;
+	border: 2px solid black ;
+	top: -200px;
+	left: 31%;
+	width: 500px;
+	height: 195px ;
+}
+
+#russia_img{
+	position:fixed ;
+	margin-top: 3px;
+	top:0px;
+	right:0px ;
+	width: 300px;
+	height: 83px;
+}
+
+#left_img {
+	position:fixed; 
+	left:0px; 
+	top:85px;
+}
+
+#korean{
+	position: relative ;
+	top: 25px;
+	left: 412px;
+	width: 500px;
+	height: 200px ;
+	
+}
+
+#russian {
+	position: relative ;
+	top: 27px;
+	left: 400px;
+	width: 50px;
+	height: 20px ;
+}
+
+#russian_text{
+	position: relative ;
+	border: 2px solid black ;
+	top: 63px;
+	left: 31%;
+	width: 500px;
+	height: 195px ;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
+}
+
+#right_img {
+	position: relative ;
+	float: right;
+	right: -8px;
+}
+
+div #trans_bt{
+	position:relative; 
+	left:10%; 
+	top:-140px;
+}
+
+/*모바일로 접속시 아래 css가 적용된다.*/
+@media screen and (max-width:500px) {
+
+	#main_title {
+		position: relative ;
+		left: 50% ;
+		text-align: center ;
+	
+	}
+
+	#form{
+		position: relative ;
+		left: 0px ;
+	}
+	
+	#korea_img{
+		display: none;
+	}
+
+	#korean_text{
+		position: relative ;
+		left: 100px ;
+		top: 0px ;
+	}
+
+	#russia_img{
+		display: none;
+	}
+
+	#left_img {
+		display: none;
+	}
+
+	#korean{
+		display: none ;
+	}
+
+	#russian_text{
+		position: relative ;
+		left: -300px;
+		top: 254px ;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		
+	}
+
+	div #trans_bt{
+	position:relative; 
+	left:95%; 
+	top: 0px;
+	}
+	
+	#right_img {
+		display: none;
+	}
+
+}
+
